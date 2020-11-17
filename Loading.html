@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <script>
-    function computerPlay(){
+    function runComputerPlay(){
         let randNum=Math.random();
         if (randNum>=0&&randNum<(1/3)){
             return "rock";
@@ -13,7 +13,7 @@
     }
     
 
-    function singleRound(playerSel,computerSel){  
+    function playSingleRound(playerSel,computerSel){  
     computerSel=computerSel.toLowerCase();
     playerSel=playerSel.toLowerCase();
 
@@ -27,17 +27,17 @@
 
     }
 
-        function game(){
+        function playGame(){
             for(i=0;i<5;i++){
                 let playerPlay=prompt("Please input Rock,Paper or Scissors","Rock");
-                let result= singleRound(playerPlay,computerPlay());
+                let result= playSingleRound(playerPlay,runComputerPlay());
                 console.log(result);
             }
             
 
         }
 
-        game();
+        playGame();
          
         
     
