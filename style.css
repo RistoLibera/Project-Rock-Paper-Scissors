@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(150, 137, 137);
+    width:500px;
+    align-items: center;
+   
+
+}
+
+.play{
+justify-content: center;
+padding: 10px;
+position: relative;
+background-color: #fff;
+margin: 0 auto;
+width: 150px;
+height: 40px;
+text-align: center;
+
+
+
+}
+
+.process .result{
+display:flex;
+justify-content: center;
+margin: 0 auto;
+
+}
